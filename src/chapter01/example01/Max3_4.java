@@ -15,6 +15,7 @@ public class Max3_4 {
         Scanner scanner = new Scanner(System.in);
         int[] array = new int[NUM_OF_DATA];
         for (int i = 0; i < NUM_OF_DATA; i++) {
+            // 문자 a에 for문 index i를 추가할시 알파벳순으로 증가가 가능하다
             System.out.printf("%c 의 값:",'a' + i );
             array[i] = scanner.nextInt();
         }
